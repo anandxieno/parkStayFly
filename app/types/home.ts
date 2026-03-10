@@ -28,6 +28,11 @@ export interface homeDataType {
   };
 }
 
+export interface mapLocationType {
+    lat : number,
+    lng : number
+}
+
 
 export interface globalDataType {
   siteTitle: string;
